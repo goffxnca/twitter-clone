@@ -1,0 +1,9 @@
+.sidebar__tweet {
+  background-color: var(--twitter-primary-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  height: 50px !important;
+  margin-top: 10px !important;
+}
