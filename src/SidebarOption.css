@@ -1,0 +1,28 @@
+.sidbarOption {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px 5px;
+  transition: 0.1s ease-in-out;
+}
+
+.sidbarOption:hover {
+  background-color: var(--twitter-secondary-color);
+  border-radius: 30px;
+  color: var(--twitter-primary-color);
+}
+
+.sidbarOption__icon {
+  padding: 0px 15px 0px 5px;
+}
+
+.sidbarOption__text {
+  font-size: large;
+  font-weight: 700;
+}
+
+.sidbarOption--active {
+  color: var(--twitter-primary-color);
+}
