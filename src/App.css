@@ -1,4 +1,12 @@
 body {
   --twitter-primary-color: #1da1f2;
   --twitter-secondary-color: #e8f5fe;
+  --twitter-border-color: #e6ecf0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin: auto;
 }
