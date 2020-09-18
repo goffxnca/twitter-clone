@@ -3,7 +3,7 @@ import "./SidebarOption.css";
 
 function SidebarOption({ active, text, Icon }) {
   return (
-    <div className={`sidbarOption ${active && "sidbarOption--active"}`}>
+    <div className={`sidbarOption ${active ? "sidbarOption--active" : ""}`}>
       <div className="sidebarOption__wrapper">
         <Icon className="sidbarOption__icon" fontSize="medium" />
         <span className="sidbarOption__text">{text}</span>

@@ -1,6 +1,6 @@
 .sidebar {
   min-width: 275px;
-  margin-top: 10px;
+  margin-top: 4px;
   padding-left: 20px;
   display: flex;
   flex-direction: column;
@@ -21,6 +21,13 @@
 .sidebar__twitterIcon {
   color: var(--twitter-primary-color);
   margin-left: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 6px;
+}
+
+.sidebar__twitterIcon:hover {
+  background-color: var(--twitter-secondary-color);
 }
 
 .sidebar__PostAddIcon {
@@ -40,6 +47,9 @@
   .sidebar {
     padding-left: 5px;
     min-width: unset;
+    flex-grow: 0.4;
+    align-items: flex-end;
+    margin-right: 10px;
   }
 
   .sidebar__PostAddIcon {
@@ -48,5 +58,16 @@
 
   .sidebar__tweet {
     display: none !important;
+  }
+
+  .sidebar__twitterIcon {
+    margin-right: 10px !important;
+    margin-left: unset;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    margin-right: unset;
   }
 }
