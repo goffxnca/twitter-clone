@@ -1,14 +1,17 @@
 .sidbarOption {
-  display: flex;
-  margin: 10px;
-  flex-direction: row;
-  align-items: center;
   cursor: pointer;
-  padding: 12px 5px;
+  display: flex;
+}
+
+.sidebarOption__wrapper {
+  display: flex;
+  margin: 3px 10px;
+  align-items: center;
+  padding: 12px 20px 12px 5px;
   transition: 0.1s ease-in-out;
 }
 
-.sidbarOption:hover {
+.sidbarOption:hover > .sidebarOption__wrapper {
   background-color: var(--twitter-secondary-color);
   border-radius: 30px;
   color: var(--twitter-primary-color);
