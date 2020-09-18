@@ -1,0 +1,39 @@
+.twitterBox {
+  display: flex;
+  padding: 12px;
+}
+
+.twitterBox__form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.twitterBox__input {
+  overflow: hidden;
+  margin: 0px;
+  resize: none;
+  border: none;
+  outline-width: 0;
+  font-size: 19px;
+  padding: 5px;
+  margin-left: 5px;
+  font-family: inherit;
+  color: inherit;
+}
+
+.twitterBox__option {
+  display: flex;
+}
+.twitterBox__option > .MuiIconButton-root {
+  color: var(--twitter-primary-color) !important;
+  padding: 7px !important;
+}
+
+.twitterBox__option > .MuiIconButton-root:hover {
+  background-color: var(--twitter-icon-hover-color);
+}
+
+.twitterBox__submit {
+  margin-left: auto !important;
+}
