@@ -1,6 +1,7 @@
 import React from "react";
 import "./Feed.css";
 import SettingsIcon from "@material-ui/icons/Settings";
+import TwitterBox from "./TwitterBox";
 
 function Feed() {
   return (
@@ -9,6 +10,9 @@ function Feed() {
         <h2>Home</h2>
         <SettingsIcon fontSize="medium" />
       </div>
+
+      <TwitterBox />
+
       <div>
         Ea magna duis dolore irure labore veniam proident occaecat nostrud est
         cupidatat laborum pariatur laboris. Elit sit tempor occaecat nostrud qui
