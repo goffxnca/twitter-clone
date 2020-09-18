@@ -18,14 +18,30 @@
 }
 
 .sidbarOption__icon {
-  padding: 0px 15px 0px 5px;
+  padding: 0px 10px 0px 10px;
+  font-size: 26px !important;
 }
 
 .sidbarOption__text {
-  font-size: large;
+  font-size: 19px;
   font-weight: 700;
+  margin-left: 10px;
 }
 
 .sidbarOption--active {
   color: var(--twitter-primary-color);
+}
+
+@media (max-width: 1282px) {
+  .sidbarOption__text {
+    display: none;
+  }
+
+  .sidebarOption__wrapper {
+    padding: 9px 0 9px 0;
+  }
+
+  .sidbarOption:hover > .sidebarOption__wrapper {
+    padding: 9px 0 9px 0;
+  }
 }
