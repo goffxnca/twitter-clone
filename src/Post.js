@@ -26,7 +26,14 @@ function Post() {
         <span className="post__message">
           Virtual book tour tonight, in a few hours! It’s on Zoom, so we can see
           each other, chat, I’ll answer your questions, it’ll be...magic. Come
-          play! https://anunlikelystory.com/event/NPH
+          play!{" "}
+          <a href="#" className="post__hashtag">
+            #njcu
+          </a>
+          <a href="#" className="post__hashtag">
+            #njcudps
+          </a>
+          https://anunlikelystory.com/event/NPH
         </span>
         <div className="post__image">
           <img src="https://pbs.twimg.com/media/EhruRoDX0AMbPX6?format=jpg&name=large" />

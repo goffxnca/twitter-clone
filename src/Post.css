@@ -24,6 +24,21 @@
 
 .post__dotSeparator {
   padding: 0 5px;
+  line-height: 12px;
+}
+
+.post__setting {
+  color: var(--twitter-text-alternative) !important;
+}
+
+.post__hashtag {
+  color: var(--twitter-primary-color) !important;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+.post__hashtag:hover {
+  text-decoration: underline;
 }
 
 .post__setting.MuiIconButton-root {
@@ -31,11 +46,16 @@
   margin-left: auto;
 }
 
+.post__message {
+  overflow-wrap: anywhere;
+}
+
 .post__image {
   margin-top: 10px;
   height: 290px;
   overflow: hidden;
   border-radius: 15px;
+  border: 1px solid #ccd6dd;
 }
 
 .post__image > img {

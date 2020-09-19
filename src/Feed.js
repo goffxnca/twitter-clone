@@ -18,6 +18,7 @@ function Feed() {
       <TwitterBox />
 
       <Post />
+      <Post />
 
       <div>
         Ea magna duis dolore irure labore veniam proident occaecat nostrud est
