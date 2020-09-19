@@ -3,6 +3,12 @@ import React from "react";
 import "./Post.css";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
+import ModeCommentOutlinedIcon from "@material-ui/icons/ModeCommentOutlined";
+import RepeatOutlinedIcon from "@material-ui/icons/RepeatOutlined";
+
+import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
+import SystemUpdateAltIcon from "@material-ui/icons/SystemUpdateAlt";
+
 function Post() {
   return (
     <div className="post">
@@ -37,6 +43,21 @@ function Post() {
         </span>
         <div className="post__image">
           <img src="https://pbs.twimg.com/media/EhruRoDX0AMbPX6?format=jpg&name=large" />
+        </div>
+
+        <div className="post__option">
+          <IconButton className="baseTwitterIconButton">
+            <ModeCommentOutlinedIcon fontSize="small" />
+          </IconButton>
+          <IconButton className="baseTwitterIconButton">
+            <RepeatOutlinedIcon fontSize="small" />
+          </IconButton>
+          <IconButton className="baseTwitterIconButton">
+            <FavoriteBorderOutlinedIcon fontSize="small" />
+          </IconButton>
+          <IconButton className="baseTwitterIconButton">
+            <SystemUpdateAltIcon fontSize="small" />
+          </IconButton>
         </div>
       </div>
     </div>
