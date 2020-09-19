@@ -14,8 +14,8 @@ function Post() {
 
       <div className="post__content">
         <div className="post__headerInfo">
-          <span className="post__displayName">Maxist</span>{" "}
-          <span className="post__userName">@Maxist11</span>{" "}
+          <span className="post__displayName">Maxist</span>
+          <span className="post__userName">@Maxist11</span>
           <span className="post__dotSeparator">.</span>
           <span class="post__date">Aug 28</span>
         </div>
@@ -24,10 +24,9 @@ function Post() {
           each other, chat, I’ll answer your questions, it’ll be...magic. Come
           play! https://anunlikelystory.com/event/NPH
         </span>
-        <img
-          src="https://pbs.twimg.com/media/EhruRoDX0AMbPX6?format=jpg&name=large"
-          className="post__image"
-        />
+        <div className="post__image">
+          <img src="https://pbs.twimg.com/media/EhruRoDX0AMbPX6?format=jpg&name=large" />
+        </div>
       </div>
     </div>
   );
