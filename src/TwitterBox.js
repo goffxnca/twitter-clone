@@ -19,9 +19,8 @@ function TwitterBox() {
         <textarea
           className="twitterBox__input"
           placeholder="What's happending?"
+          spellCheck="false"
         ></textarea>
-
-        <Divider variant="middle" />
 
         <div class="twitterBox__option">
           <IconButton>
@@ -39,7 +38,10 @@ function TwitterBox() {
           <IconButton>
             <DateRangeIcon />
           </IconButton>
-          <Button variant="outlined" className="twitterBox__submit">
+          <Button
+            variant="contained"
+            className="baseTwitterButton twitterBox__submit"
+          >
             Tweet
           </Button>
         </div>

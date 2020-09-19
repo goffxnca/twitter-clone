@@ -25,7 +25,7 @@ function Sidebar() {
       <SidebarOption text="Lists" Icon={ListAltIcon} />
       <SidebarOption text="Profile" Icon={PermIdentityIcon} />
       <SidebarOption text="More" Icon={MoreHorizIcon} />
-      <Button variant="outlined" className="sidebar__tweet">
+      <Button variant="outlined" className="baseTwitterButton  sidebar__tweet">
         Tweet
       </Button>
       <PostAddIcon className="sidebar__PostAddIcon" />
