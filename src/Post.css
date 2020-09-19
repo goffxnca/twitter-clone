@@ -1,6 +1,8 @@
 .post {
   padding: 12px;
   display: flex;
+  border-bottom: 1px solid var(--twitter-border-color);
+  padding-bottom: 0;
 }
 
 .post__headerInfo {
@@ -60,6 +62,17 @@
 
 .post__image > img {
   width: 100%;
+}
+
+.post__option {
+  display: flex;
+  justify-content: space-between;
+  max-width: 425px;
+  margin: 5px 0;
+}
+
+.post__option .MuiIconButton-root {
+  color: #657786 !important;
 }
 
 @media (max-width: 684px) {
