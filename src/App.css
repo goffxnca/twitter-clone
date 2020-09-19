@@ -30,6 +30,16 @@ body {
   font-weight: 700 !important;
   text-transform: inherit !important;
   height: 50px !important;
-  margin-top: 10px !important;
   border-radius: 30px !important;
+}
+
+.baseTwitterIconButton {
+  color: var(--twitter-primary-color) !important;
+}
+.baseTwitterIconButton.MuiIconButton-root {
+  padding: 7px !important;
+}
+
+.baseTwitterIconButton:hover {
+  background-color: var(--twitter-icon-hover-color) !important;
 }

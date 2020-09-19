@@ -28,13 +28,9 @@
   display: flex;
   margin-top: 5px;
 }
-.twitterBox__option > .MuiIconButton-root {
-  color: var(--twitter-primary-color) !important;
-  padding: 7px !important;
-}
 
-.twitterBox__option > .MuiIconButton-root:hover {
-  background-color: var(--twitter-icon-hover-color);
+.twitterBox__option > .MuiIconButton-root {
+  padding: 7px !important;
 }
 
 .twitterBox__submit {

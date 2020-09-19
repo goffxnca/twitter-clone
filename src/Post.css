@@ -26,6 +26,11 @@
   padding: 0 5px;
 }
 
+.post__setting.MuiIconButton-root {
+  padding: 0px !important;
+  margin-left: auto;
+}
+
 .post__image {
   margin-top: 10px;
   height: 290px;
@@ -35,4 +40,10 @@
 
 .post__image > img {
   width: 100%;
+}
+
+@media (max-width: 684px) {
+  .post__image {
+    height: 42vw;
+  }
 }

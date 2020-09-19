@@ -3,13 +3,16 @@ import "./Feed.css";
 import SettingsIcon from "@material-ui/icons/Settings";
 import TwitterBox from "./TwitterBox";
 import Post from "./Post";
+import { IconButton } from "@material-ui/core";
 
 function Feed() {
   return (
     <div className="feed">
       <div className="feed__head">
         <h2>Home</h2>
-        <SettingsIcon fontSize="medium" />
+        <IconButton className="baseTwitterIconButton">
+          <SettingsIcon />
+        </IconButton>
       </div>
 
       <TwitterBox />

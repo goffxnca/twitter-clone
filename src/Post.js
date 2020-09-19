@@ -1,6 +1,7 @@
-import { Avatar } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
 import React from "react";
 import "./Post.css";
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 function Post() {
   return (
@@ -18,6 +19,9 @@ function Post() {
           <span className="post__userName">@Maxist11</span>
           <span className="post__dotSeparator">.</span>
           <span class="post__date">Aug 28</span>
+          <IconButton className="post__setting baseTwitterIconButton ">
+            <KeyboardArrowDownIcon />
+          </IconButton>
         </div>
         <span className="post__message">
           Virtual book tour tonight, in a few hours! It’s on Zoom, so we can see

@@ -23,19 +23,19 @@ function TwitterBox() {
         ></textarea>
 
         <div class="twitterBox__option">
-          <IconButton>
+          <IconButton className="baseTwitterIconButton">
             <CropOriginalIcon />
           </IconButton>
-          <IconButton>
+          <IconButton className="baseTwitterIconButton">
             <GifIcon />
           </IconButton>
-          <IconButton>
+          <IconButton className="baseTwitterIconButton">
             <EqualizerIcon />
           </IconButton>
-          <IconButton>
+          <IconButton className="baseTwitterIconButton">
             <SentimentSatisfiedOutlinedIcon />
           </IconButton>
-          <IconButton>
+          <IconButton className="baseTwitterIconButton">
             <DateRangeIcon />
           </IconButton>
           <Button
