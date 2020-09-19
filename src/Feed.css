@@ -5,6 +5,7 @@
   /* min-width: fit-content; */
   /* min-width: 600px; */
   max-width: 600px;
+  height: 800px !important;
 
   /*Hide scrollbar for IE, Edge, Safari and Firefox*/
   -ms-overflow-style: none;
@@ -24,6 +25,7 @@
   height: 50px;
   padding: 0 15px;
   position: sticky;
+  z-index: ;
   top: 0;
   background: white;
   border-bottom: 1px solid var(--twitter-border-color);

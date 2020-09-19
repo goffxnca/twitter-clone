@@ -1,6 +1,7 @@
 .twitterBox {
   display: flex;
   padding: 12px;
+  border-bottom: 10px solid #e6ecf0;
 }
 
 .twitterBox__form {
