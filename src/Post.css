@@ -1,0 +1,31 @@
+.post {
+  padding: 12px;
+  display: flex;
+}
+
+.post__headerInfo {
+  display: flex;
+  color: var(--twitter-text-alternative);
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__displayName {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--twitter-text-color);
+}
+
+.post__userName {
+  margin-left: 5px;
+}
+
+.post__dotSeparator {
+  padding: 0 5px;
+}
+
+.post__image {
+  width: 100%;
+}
