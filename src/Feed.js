@@ -2,6 +2,7 @@ import React from "react";
 import "./Feed.css";
 import SettingsIcon from "@material-ui/icons/Settings";
 import TwitterBox from "./TwitterBox";
+import Post from "./Post";
 
 function Feed() {
   return (
@@ -12,6 +13,8 @@ function Feed() {
       </div>
 
       <TwitterBox />
+
+      <Post />
 
       <div>
         Ea magna duis dolore irure labore veniam proident occaecat nostrud est
