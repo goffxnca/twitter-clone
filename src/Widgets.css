@@ -26,24 +26,6 @@
   color: var(--twitter-text-alternative);
 }
 
-.widgets__trends {
-  background-color: var(--twitter-box-color);
-  border-radius: 15px;
-}
-
-.widgets__trendHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid var(--twitter-border-color);
-  padding: 7px 9px 7px 15px;
-}
-
-.trend__trendShowmore {
-  padding: 15px;
-  color: var(--twitter-primary-color);
-}
-
 @media (max-width: 1025px) {
   .widgets {
     display: none;
