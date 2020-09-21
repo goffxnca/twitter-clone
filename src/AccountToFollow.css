@@ -1,0 +1,34 @@
+.accountToFollow {
+  display: flex;
+  padding: 3px 15px;
+  align-items: center;
+  color: var(--twitter-text-alternative);
+  border-bottom: 1px solid var(--twitter-border-color);
+}
+.accountToFollow__info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 9px 10px 15px;
+}
+
+.accountToFollow__displayName {
+  color: var(--twitter-text-color);
+  font-size: 15px;
+  font-weight: 700;
+}
+.accountToFollow__followButton {
+  margin-left: auto !important;
+  border: 1px solid var(--twitter-primary-color) !important;
+  border-radius: 30px !important;
+  padding: 2px 15px !important;
+  height: 100%;
+  font-family: inherit !important;
+  font-size: 15px !important;
+  text-transform: unset !important;
+  color: var(--twitter-primary-color) !important;
+  font-weight: 700 !important;
+}
+
+.accountToFollow__followButton:hover {
+  background-color: var(--twitter-icon-hover-color) !important;
+}

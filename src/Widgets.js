@@ -2,6 +2,7 @@ import React from "react";
 import "./Widgets.css";
 import SearchIcon from "@material-ui/icons/Search";
 import Trends from "./Trends";
+import WhoToFollow from "./WhoToFollow";
 
 function Widgets() {
   return (
@@ -12,7 +13,6 @@ function Widgets() {
       </div>
 
       <Trends />
-
       <WhoToFollow />
     </div>
   );
