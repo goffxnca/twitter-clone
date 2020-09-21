@@ -9,7 +9,7 @@ import RepeatOutlinedIcon from "@material-ui/icons/RepeatOutlined";
 import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
 import SystemUpdateAltIcon from "@material-ui/icons/SystemUpdateAlt";
 
-function Post() {
+function Post({ avatarSrc, displayName, userName, message, image }) {
   return (
     <div className="post">
       <div className="post__avatar">

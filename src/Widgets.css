@@ -1,5 +1,33 @@
+.widgets {
+  width: 305px;
+}
+.widgets__search {
+  border-radius: 30px;
+  margin: 6px 10px 10px 10px;
+  background-color: var(--twitter-border-color);
+  display: flex;
+  align-items: center;
+}
+
+.widgets__search > input {
+  border: none;
+  outline-width: 0px;
+  background-color: var(--twitter-border-color);
+  font-size: 15px;
+  font-weight: 300 !important;
+  padding: 10px;
+  margin-right: 20px;
+  color: var(--twitter-text-color);
+}
+
+.widgets__search > .MuiSvgIcon-root {
+  padding-left: 10px;
+  color: var(--twitter-text-alternative);
+}
+
 @media (max-width: 1025px) {
   .widgets {
     display: none;
+    outline-width: 0;
   }
 }
