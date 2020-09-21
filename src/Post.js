@@ -49,10 +49,10 @@ function Post() {
           <IconButton className="baseTwitterIconButton">
             <ModeCommentOutlinedIcon fontSize="small" />
           </IconButton>
-          <IconButton className="baseTwitterIconButton">
+          <IconButton className="baseTwitterIconButton post__retweet">
             <RepeatOutlinedIcon fontSize="small" />
           </IconButton>
-          <IconButton className="baseTwitterIconButton">
+          <IconButton className="baseTwitterIconButton post__like">
             <FavoriteBorderOutlinedIcon fontSize="small" />
           </IconButton>
           <IconButton className="baseTwitterIconButton">

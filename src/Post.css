@@ -80,6 +80,16 @@
   color: #657786 !important;
 }
 
+.post__retweet:hover {
+  color: #17bf63 !important;
+  background-color: #17bf631a !important;
+}
+
+.post__like:hover {
+  color: #e0245e !important;
+  background-color: #e0245e1a !important;
+}
+
 @media (max-width: 684px) {
   .post__image {
     height: 42vw;
