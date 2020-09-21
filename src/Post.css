@@ -5,6 +5,11 @@
   padding-bottom: 0;
 }
 
+.post:hover {
+  background-color: var(--twitter-box-color);
+  cursor: pointer;
+}
+
 .post__headerInfo {
   display: flex;
   color: var(--twitter-text-alternative);
