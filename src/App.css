@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 body {
   --twitter-primary-color: #1da1f2;
@@ -43,4 +43,20 @@ body {
 
 .baseTwitterIconButton:hover {
   background-color: var(--twitter-icon-hover-color) !important;
+}
+
+.sectionTitle {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.baseTransition {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  transition-property: all;
+}
+
+.baseTransition:hover {
+  background-color: #00000008;
+  cursor: pointer;
 }

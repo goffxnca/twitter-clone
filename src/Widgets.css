@@ -1,9 +1,10 @@
 .widgets {
-  width: 305px;
+  width: 350px;
+  margin-left: 30px;
 }
 .widgets__search {
   border-radius: 30px;
-  margin: 6px 10px 10px 10px;
+  margin: 10px 0;
   background-color: var(--twitter-border-color);
   display: flex;
   align-items: center;
@@ -23,6 +24,24 @@
 .widgets__search > .MuiSvgIcon-root {
   padding-left: 10px;
   color: var(--twitter-text-alternative);
+}
+
+.widgets__trends {
+  background-color: var(--twitter-box-color);
+  border-radius: 15px;
+}
+
+.widgets__trendHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--twitter-border-color);
+  padding: 7px 9px 7px 15px;
+}
+
+.trend__trendShowmore {
+  padding: 15px;
+  color: var(--twitter-primary-color);
 }
 
 @media (max-width: 1025px) {

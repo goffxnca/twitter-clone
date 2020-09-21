@@ -1,0 +1,22 @@
+.trend {
+  color: var(--twitter-text-alternative);
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--twitter-border-color);
+}
+
+.trend__country {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  align-items: center;
+}
+
+.trend__hashtag {
+  color: var(--twitter-text-color);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.trend__tweetsTotal {
+  font-size: 13px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Feed.css";
-import SettingsIcon from "@material-ui/icons/Settings";
+import TuneIcon from "@material-ui/icons/Tune";
 import TwitterBox from "./TwitterBox";
 import Post from "./Post";
 import { IconButton } from "@material-ui/core";
@@ -9,9 +9,9 @@ function Feed() {
   return (
     <div className="feed">
       <div className="feed__head">
-        <h2>Home</h2>
+        <span className="sectionTitle">Home</span>
         <IconButton className="baseTwitterIconButton">
-          <SettingsIcon />
+          <TuneIcon />
         </IconButton>
       </div>
 
