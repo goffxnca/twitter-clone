@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Feed.css";
 import TuneIcon from "@material-ui/icons/Tune";
 import TwitterBox from "./TwitterBox";
@@ -6,6 +6,8 @@ import Post from "./Post";
 import { IconButton } from "@material-ui/core";
 
 function Feed() {
+  const [posts, setPosts] = useState([]);
+
   return (
     <div className="feed">
       <div className="feed__head">
@@ -17,54 +19,22 @@ function Feed() {
 
       <TwitterBox />
 
-      <Post />
-      <Post />
-
-      <div>
-        Ea magna duis dolore irure labore veniam proident occaecat nostrud est
-        cupidatat laborum pariatur laboris. Elit sit tempor occaecat nostrud qui
-        magna quis veniam magna esse fugiat nisi dolore ad. Duis consectetur
-        duis dolore mollit aute ex. Sunt ea anim id deserunt duis. Amet minim
-        labore sint laboris excepteur esse et ex proident sit sunt. Do
-        exercitation cupidatat officia nisi aute occaecat ipsum eu dolore. Et
-        sit dolor duis deserunt commodo enim anim culpa irure. Est aliqua esse
-        aliqua qui tempor commodo occaecat. Aliquip enim aliqua cupidatat id
-        proident cillum. Officia ad sit mollit sunt culpa. Officia ea Lorem amet
-        ad. Cupidatat Lorem qui laborum aliquip cupidatat sit Lorem cillum. Non
-        exercitation id ipsum ad irure excepteur officia labore id irure est
-        cillum. Aute culpa nisi irure aliqua id labore commodo ullamco nulla
-        excepteur. Fugiat eiusmod aliquip et aute amet ipsum. Officia incididunt
-        est reprehenderit minim sint irure reprehenderit elit culpa cupidatat in
-        ex. Incididunt aute pariatur proident exercitation cillum do ut. Labore
-        occaecat id deserunt cillum esse sint non non. Proident pariatur anim ea
-        duis.
-      </div>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
-      <h1>Cool</h1>
+      <Post
+        avatar="https://pbs.twimg.com/profile_images/1294387469681438720/9OjHyZSG_200x200.jpg"
+        displayName="Maxist"
+        userName="@maxist11"
+        timestamp="Aug 28"
+        message="Virtual book tour tonight, in a few hours! It’s on Zoom, so we can see each other, chat, I’ll answer your questions, it’ll be...magic. Come play! https://anunlikelystory.com/event/NPH"
+        image="https://pbs.twimg.com/media/EhruRoDX0AMbPX6?format=jpg&name=large"
+      />
+      <Post
+        avatar="https://pbs.twimg.com/profile_images/1284953674654126080/w06ouHnP_bigger.jpg"
+        displayName="Backxwash"
+        userName="@backxwash"
+        timestamp="Aug 28"
+        message="Porn hub loves to come across as super likeable and politically charged on social media to cover up the fact they’re just as complicit in child sex trafficking as others elites are"
+        image="https://pbs.twimg.com/media/EejE1IVUEAEZ6E-?format=jpg&name=large"
+      />
     </div>
   );
 }

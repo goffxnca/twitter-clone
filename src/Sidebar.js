@@ -11,7 +11,7 @@ import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import PostAddIcon from "@material-ui/icons/PostAdd";
-import { Button, IconButton } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 
 function Sidebar() {
   return (
