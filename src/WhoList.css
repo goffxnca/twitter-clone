@@ -1,0 +1,18 @@
+.whoList {
+  background-color: var(--twitter-box-color);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.whoList__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--twitter-border-color);
+  padding: 10px 9px 10px 15px;
+}
+
+.whoList__showmore {
+  padding: 15px;
+  color: var(--twitter-primary-color);
+}
