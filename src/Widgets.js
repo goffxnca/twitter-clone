@@ -1,8 +1,8 @@
 import React from "react";
 import "./Widgets.css";
 import SearchIcon from "@material-ui/icons/Search";
-import Trends from "./Trends";
-import WhoToFollow from "./WhoToFollow";
+import TrendList from "./TrendList";
+import WhoToFollow from "./WhoList";
 
 function Widgets() {
   return (
@@ -12,7 +12,7 @@ function Widgets() {
         <input type="text" placeholder="Search Twitter" spellCheck="false" />
       </div>
 
-      <Trends />
+      <TrendList />
       <WhoToFollow />
     </div>
   );
