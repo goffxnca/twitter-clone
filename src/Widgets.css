@@ -4,7 +4,7 @@
 }
 .widgets__search {
   border-radius: 30px;
-  margin: 10px 0;
+  margin: 5px 0 10px 0;
   background-color: var(--twitter-border-color);
   display: flex;
   align-items: center;
