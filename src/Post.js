@@ -9,6 +9,7 @@ import RepeatOutlinedIcon from "@material-ui/icons/RepeatOutlined";
 import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
 import SystemUpdateAltIcon from "@material-ui/icons/SystemUpdateAlt";
 import momentTwiter from "moment-twitter";
+import taghash from "taghash";
 
 function Post({ avatar, displayName, userName, timestamp, message, image }) {
   const getTwitterDateFormat = (date) => {
@@ -32,7 +33,10 @@ function Post({ avatar, displayName, userName, timestamp, message, image }) {
             <KeyboardArrowDownIcon />
           </IconButton>
         </div>
-        <span className="post__message">{message}</span>
+        <div
+          class="post__message"
+          dangerouslySetInnerHTML={{ __html: taghash(message) }}
+        />
         <div className="post__image">
           <img src={image} alt="" />
         </div>
@@ -57,10 +61,3 @@ function Post({ avatar, displayName, userName, timestamp, message, image }) {
 }
 
 export default Post;
-
-/* <a href="#" className="post__hashtag">
-  #njcu
-</a>
-<a href="#" className="post__hashtag">
-  #njcudps
-</a> */

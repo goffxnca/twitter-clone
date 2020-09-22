@@ -38,16 +38,6 @@
   color: var(--twitter-text-alternative) !important;
 }
 
-.post__hashtag {
-  color: var(--twitter-primary-color) !important;
-  margin: 0 2px;
-  text-decoration: none;
-}
-
-.post__hashtag:hover {
-  text-decoration: underline;
-}
-
 .post__setting.MuiIconButton-root {
   padding: 0px !important;
   margin-left: auto;
@@ -55,6 +45,20 @@
 
 .post__message {
   overflow-wrap: anywhere;
+}
+
+.post__message a {
+  color: var(--twitter-primary-color) !important;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+.post__message a:visited {
+  color: var(--twitter-primary-color) !important;
+}
+
+.post__message > a:hover {
+  text-decoration: underline;
 }
 
 .post__image {
