@@ -4,7 +4,7 @@
   overflow-y: scroll;
   /* min-width: fit-content; */
   /* min-width: 600px; */
-  max-width: 600px;
+  width: 600px;
   height: 800px !important;
 
   /*Hide scrollbar for IE, Edge, Safari and Firefox*/

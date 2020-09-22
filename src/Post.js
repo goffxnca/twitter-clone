@@ -8,8 +8,14 @@ import RepeatOutlinedIcon from "@material-ui/icons/RepeatOutlined";
 
 import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
 import SystemUpdateAltIcon from "@material-ui/icons/SystemUpdateAlt";
+import momentTwiter from "moment-twitter";
 
 function Post({ avatar, displayName, userName, timestamp, message, image }) {
+  const getTwitterDateFormat = (date) => {
+    var d = new Date(date?.toDate());
+    return momentTwiter(d).twitter();
+  };
+
   return (
     <div className="post">
       <div className="post__avatar">
@@ -21,7 +27,7 @@ function Post({ avatar, displayName, userName, timestamp, message, image }) {
           <span className="post__displayName">{displayName}</span>
           <span className="post__userName">{userName}</span>
           <span className="post__dotSeparator">.</span>
-          <span className="post__date">{timestamp}</span>
+          <span className="post__date">{getTwitterDateFormat(timestamp)}</span>
           <IconButton className="post__setting baseTwitterIconButton ">
             <KeyboardArrowDownIcon />
           </IconButton>
