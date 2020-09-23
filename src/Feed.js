@@ -5,6 +5,7 @@ import TwitterBox from "./TwitterBox";
 import Post from "./Post";
 import { IconButton } from "@material-ui/core";
 import db from "./firebase";
+import FlipMove from "react-flip-move";
 
 function Feed() {
   const [posts, setPosts] = useState([]);
@@ -29,9 +30,12 @@ function Feed() {
       </div>
 
       <TwitterBox />
-      {posts.map((post) => (
-        <Post key={post.id} {...post.data} />
-      ))}
+
+      <FlipMove>
+        {posts.map((post) => (
+          <Post key={post.id} {...post.data} />
+        ))}
+      </FlipMove>
     </div>
   );
 }
