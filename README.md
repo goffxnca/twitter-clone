@@ -10,6 +10,7 @@ The objective of this project is to build a twitter clone web application with t
 ## 🖼️ Screenshot
 
 ![Twitter Clone Screenshot](./docs/twitter-clone-gif1.gif)
+![Twitter Clone Screenshot](./docs/twitter-clone-gif2.gif)
 
 ## 🌐 [Live Preview](https://twitter-clone-50729.web.app/)
 
