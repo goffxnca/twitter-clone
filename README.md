@@ -2,14 +2,14 @@
 
 ## Project Description
 
-The objective of this project is to build a twitter clone version come with the following features:
+The objective of this project is to build a twitter clone web application with the following features:
 
 - Post a tweet message
 - Full Responsive features fit to all screen size
 
 ## 🖼️ Screenshot
 
-![FaceBook Clone Screenshot](./docs/facebook-clone-animate.gif)
+![Twitter Clone Screenshot](./docs/twitter-clone-gif1.gif)
 
 ## 🌐 [Live Preview](https://twitter-clone-50729.web.app/)
 
