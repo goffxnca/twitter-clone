@@ -1,0 +1,37 @@
+.checkout {
+  display: flex;
+  align-items: center;
+  color: var(--twitter-text-alternative);
+  margin: 20px 10px 10px 0px;
+  padding: 0px 12px;
+  cursor: pointer;
+  border-radius: 39px;
+  justify-content: space-between;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.checkout:hover {
+  background-color: var(--twitter-secondary-color);
+}
+
+.checkout_userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.checkout__info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 9px 10px 10px;
+}
+
+.checkout__displayName {
+  color: var(--twitter-text-color);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.checkout__option {
+  color: var(--twitter-text-color);
+}
