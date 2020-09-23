@@ -16,27 +16,31 @@ import Checkout from "./Checkout";
 
 function Sidebar() {
   return (
-    <div className="sidebar">
-      <div class="sidebar__nav">
-        <TwitterIcon fontSize="large" className="sidebar__twitterIcon" />
-        <SidebarOption active text="Home" Icon={HomeOutlinedIcon} />
-        <SidebarOption text="Explore" Icon={SearchIcon} />
-        <SidebarOption text="Notifications" Icon={NotificationsNoneIcon} />
-        <SidebarOption text="Messages" Icon={MailOutlineIcon} />
-        <SidebarOption text="Bookmarks" Icon={BookmarkBorderIcon} />
-        <SidebarOption text="Lists" Icon={ListAltIcon} />
-        <SidebarOption text="Profile" Icon={PermIdentityIcon} />
-        <SidebarOption text="More" Icon={MoreHorizIcon} />
-        <Button
-          variant="outlined"
-          className="baseTwitterButton  sidebar__tweet"
-        >
-          Tweet
-        </Button>
-        <PostAddIcon className="sidebar__PostAddIcon" />
-      </div>
+    <div className="sidebarContainer">
+      <div className="sidebar">
+        <div className="sidebar__flex">
+          <div className="sidebar__nav">
+            <TwitterIcon fontSize="large" className="sidebar__twitterIcon" />
+            <SidebarOption active text="Home" Icon={HomeOutlinedIcon} />
+            <SidebarOption text="Explore" Icon={SearchIcon} />
+            <SidebarOption text="Notifications" Icon={NotificationsNoneIcon} />
+            <SidebarOption text="Messages" Icon={MailOutlineIcon} />
+            <SidebarOption text="Bookmarks" Icon={BookmarkBorderIcon} />
+            <SidebarOption text="Lists" Icon={ListAltIcon} />
+            <SidebarOption text="Profile" Icon={PermIdentityIcon} />
+            <SidebarOption text="More" Icon={MoreHorizIcon} />
+            <Button
+              variant="outlined"
+              className="baseTwitterButton  sidebar__tweet"
+            >
+              Tweet
+            </Button>
+            <PostAddIcon className="sidebar__PostAddIcon" />
+          </div>
 
-      <Checkout class="sidebar__checkout" />
+          <Checkout class="sidebar__checkout" />
+        </div>
+      </div>
     </div>
   );
 }

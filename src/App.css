@@ -12,8 +12,7 @@ body {
 }
 
 .app {
-  display: flex;
-  /* height: 100vh; */
+  display: table;
   max-width: 1300px;
   margin: auto;
   color: var(--twitter-text-color);
@@ -59,4 +58,10 @@ body {
 .baseTransition:hover {
   background-color: #00000008;
   cursor: pointer;
+}
+
+.mock {
+  position: unset !important;
+  background-color: gray !important;
+  z-index: 0 !important;
 }

@@ -1,10 +1,26 @@
+.sidebarContainer {
+  width: 300px;
+}
+
 .sidebar {
   min-width: 275px;
   margin-top: 4px;
   padding-left: 20px;
+  display: table-cell;
+  flex-direction: column;
+  justify-content: space-between;
+
+  z-index: 1000;
+  position: fixed;
+  background-color: white;
+  height: 100vh;
+}
+
+.sidebar__flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .sidebar__nav {
@@ -60,8 +76,25 @@
   }
 
   .sidebar__twitterIcon {
-    margin-right: 10px !important;
     margin-left: unset;
+    align-self: center;
+  }
+
+  .checkout {
+    margin: 0 0 20px 0 !important;
+    padding: 10px 10px !important;
+  }
+
+  .checkout__info {
+    display: none !important;
+  }
+
+  .checkout__option {
+    display: none !important;
+  }
+
+  .sidebarContainer {
+    width: 80px;
   }
 }
 

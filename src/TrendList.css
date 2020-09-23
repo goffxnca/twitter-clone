@@ -1,6 +1,10 @@
 .trendList {
   background-color: var(--twitter-box-color);
   border-radius: 15px;
+  width: 350px;
+  display: table-cell;
+  position: fixed;
+  top: 60px;
 }
 
 .trendList__header {

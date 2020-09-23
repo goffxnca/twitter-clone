@@ -2,6 +2,10 @@
   background-color: var(--twitter-box-color);
   border-radius: 15px;
   margin-top: 15px;
+  width: 350px;
+  display: table-cell;
+  position: fixed;
+  top: 582px;
 }
 
 .whoList__header {
