@@ -4,6 +4,12 @@
   padding-left: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar__tweet {
