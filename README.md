@@ -2,25 +2,31 @@
 
 ## Project Description
 
-The objective of this project is to build a minimal responsive twitter clone version come with the following features:
+The objective of this project is to build a twitter clone version come with the following features:
 
-...
+- Post a tweet message
+- Full Responsive features fit to all screen size
 
 ## 🖼️ Screenshot
 
+![FaceBook Clone Screenshot](./docs/facebook-clone-animate.gif)
+
+## 🌐 [Live Preview](https://twitter-clone-50729.web.app/)
+
 ## 🛠️ Tech stack
 
-In this project we used:
+In this project I used:
 
 - React 16.3.1
 - HTML5 and CSS3
 - MaterialUI
 - Firebase
 - Twitter API
+- React Flex Move
 
 ## 🧾 TODO
 
-- Retrive dynamic trends from twitter API
+- Retrive dynamic trends, tweets post, who to follow from twitter API
 
 ## 🤝 Contributing
 
