@@ -30,6 +30,7 @@ In this project I used:
 
 ## 🧾 TODO
 
+- Add Image uploader in stead of putting image url in textbox
 - Retrive dynamic trends, tweets post, who to follow from twitter API
 
 ## 🤝 Contributing
