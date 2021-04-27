@@ -45,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## 👨🏽‍💻 Authors
 
-- [@goffxnca](https://github.com/goffxnca/)
+- [@goffjira](https://github.com/goffjira/)
 
 ## 📝 License
 
